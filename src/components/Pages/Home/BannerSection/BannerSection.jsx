@@ -67,7 +67,7 @@ const CustomBtn = (props) =>{
   
               <div className='m-3 md:mb-10 mb-32'>
                   <li
-                      className={`border-2 ms-2 md:p-2 p-[4px]  rounded-[50%] cursor-pointer ${active ? "md:bg-yellow-300 bg-black" : "bg-transparent"}`}
+                      className={`border border-white ms-2 md:p-2 p-[4px]  rounded-[50%] cursor-pointer ${active ? "md:bg-yellow-300 bg-black" : "bg-transparent"}`}
                       onClick={() => onClick()}
                   >
   

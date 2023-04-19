@@ -12,8 +12,8 @@ const Main = () => {
       }, false);
 
     return (
-        <div className=''>
-            <div className='header-div'>
+        <div className='relative'>
+            <div className='header-div sticky top-0 z-50'>
             <Header/>
             </div>
             <Outlet/>

@@ -22,7 +22,7 @@ const BannerCarousel = () => {
                         <img src={logo} alt="" />
                     </div>
 
-                    <div className='space-y-[20px]'>
+                    <div className='md:space-y-[20px]'>
                         <div className='flex justify-end gap-5 items-start'>
                             <div className='font-bold'>
                                 <p className='text-right lg:text-sm text-xl'>Express Delivery</p>
@@ -30,13 +30,12 @@ const BannerCarousel = () => {
                             </div>
                             <img className='2xl:h-14 lg:h-10' src={phonIcon} alt="" />
                         </div>
-                        <div className='md:space-x-[150px] 2xl:text-xl md:text-lg font-bold tracking-widest'>
+                        <div className='md:space-x-[150px] 2xl:text-xl md:text-lg font-bold lg:tracking-widest'>
 
                             <Link className='hover:text-slate-500' to='/'>Home</Link>
                             <Link className='hover:text-slate-500' to="">Menu</Link>
                             <Link className='hover:text-slate-500' to="">Our Story</Link>
                             <Link className='hover:text-slate-500' to="">Contact Us</Link>
-
                         </div>
                     </div>
                 </div>
